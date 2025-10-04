@@ -1,0 +1,12 @@
+<Project>
+<Import Project="repo.props" />
+
+  <PropertyGroup>
+    <PackagePublisher>Confiz</PackagePublisher>
+    <PackagePublisherDisplayName>Confiz</PackagePublisherDisplayName>
+    <PackageVersion>9.53</PackageVersion>
+    <PackageName>CFZ.Sapphire.Commerce</PackageName>
+    <PackageDisplayName>Pos Extension Samples</PackageDisplayName>
+    <PackageDescription>A collection of samples that show how to extend pos.</PackageDescription>
+  </PropertyGroup>
+</Project>

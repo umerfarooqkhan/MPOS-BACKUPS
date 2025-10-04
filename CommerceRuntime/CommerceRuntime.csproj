@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\CustomizationPackage.props" />
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="FBRLogo\**" />
+	  <EmbeddedResource Remove="FBRLogo\**" />
+	  <None Remove="FBRLogo\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FreedomPay.StoreCommerce.CommerceRuntime" Version="1.3.2.4" />
+		<PackageReference Include="Google.Cloud.Translation.V2" Version="3.4.0" />
+		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+		<PackageReference Include="Microsoft.Dynamics.Commerce.PaymentSDK.Portable" Version="10.53.25106.3" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Microsoft.Dynamics.Commerce.Runtime.Localization.Services.Messages" Version="9.53.25141.5" />
+		<PackageReference Include="Microsoft.Dynamics.Commerce.Runtime.Services.Messages" Version="9.53.25141.5" />
+		<PackageReference Include="Microsoft.Dynamics.Commerce.Sdk.Runtime" Version="9.53.25147.4" />
+		<PackageReference Include="ZXing.Net.Bindings.ZKWeb.System.Drawing" Version="0.16.8" />
+
+
+
+	</ItemGroup>
+		
+	<ItemGroup>
+		<Reference Include="Microsoft.Dynamics.Retail.RetailServerLibrary">
+			<HintPath>..\CommerceProxyGenerator\CSharp\bin\Debug\netstandard2.0\Microsoft.Dynamics.Retail.RetailServerLibrary.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Update="Microsoft.Dynamics.Commerce.Sdk.Analyzers" Version="9.53.25147.4">
+	    <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	</ItemGroup>
+</Project>

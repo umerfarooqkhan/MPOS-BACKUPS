@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+    <Import Project="..\CustomizationPackage.props" />
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FreedomPay.ScaleUnit.Packaging" Version="1.3.2.4" />
+        <PackageReference Include="Microsoft.Dynamics.Commerce.Sdk.ScaleUnit" Version="9.53.25147.4">
+			<PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ChannelDatabase\ChannelDatabase.csproj" />
+      <ProjectReference Include="..\CommerceRuntime\CommerceRuntime.csproj" />
+      <ProjectReference Include="..\Pos\POS.csproj" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "ChannelDatabase/9.50.0.0": {
+        "dependencies": {
+          "Microsoft.Dynamics.Commerce.Sdk.ChannelDatabase": "9.53.25147.4",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "ChannelDatabase.dll": {}
+        }
+      },
+      "Microsoft.Dynamics.Commerce.Sdk.ChannelDatabase/9.53.25147.4": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChannelDatabase/9.50.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Dynamics.Commerce.Sdk.ChannelDatabase/9.53.25147.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A5HTvQ9tDm4EUX8yB9ZUcEARCtaTI3X91VjPbJkVatEqthfdmtc7iUVkxu6MriancTM2aM79Oo5ovE00CSXYFQ==",
+      "path": "microsoft.dynamics.commerce.sdk.channeldatabase/9.53.25147.4",
+      "hashPath": "microsoft.dynamics.commerce.sdk.channeldatabase.9.53.25147.4.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    }
+  }
+}

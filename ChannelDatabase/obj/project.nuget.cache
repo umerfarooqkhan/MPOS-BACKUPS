@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "p8hMfdE8K8eXBa9Mrn58r3Y6xKhYq5xczWnIXODkrhdSpHsubg3SZ9nbCoc8so6Im4EhrEriJt7ay4viRJdznw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\ChannelDatabase\\ChannelDatabase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\localadmin\\.nuget\\packages\\microsoft.dynamics.commerce.sdk.channeldatabase\\9.53.25147.4\\microsoft.dynamics.commerce.sdk.channeldatabase.9.53.25147.4.nupkg.sha512",
+    "C:\\Users\\localadmin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\localadmin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

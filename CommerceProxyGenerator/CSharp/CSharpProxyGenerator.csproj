@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="..\..\CustomizationPackage.props" />
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <CommerceProxyGeneratorApplicationType>CSharpExtensions</CommerceProxyGeneratorApplicationType>
+        <AssemblyName>Confiz.Commerce.RetailProxy.Extension</AssemblyName>
+        <RootNamespace>Confiz.Commerce.RetailProxy.Extension</RootNamespace>
+        <DefaultLanguage>en-US</DefaultLanguage>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    </PropertyGroup>
+
+  <ItemGroup>
+      <ProjectReference Include="..\..\CommerceRuntime\CommerceRuntime.csproj" />
+    </ItemGroup>
+
+    
+</Project>

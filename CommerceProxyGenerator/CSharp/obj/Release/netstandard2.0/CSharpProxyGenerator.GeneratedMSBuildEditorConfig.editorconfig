@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Confiz.Commerce.RetailProxy.Extension
+build_property.ProjectDir = C:\Users\localadmin\Music\Git_StoreCommerce40\ScaleUnit\CommerceProxyGenerator\CSharp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

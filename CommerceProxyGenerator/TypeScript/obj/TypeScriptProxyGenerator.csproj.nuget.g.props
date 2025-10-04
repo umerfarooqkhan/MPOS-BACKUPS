@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\localadmin\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.7.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\localadmin\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.dynamics.commerce.tools.coreproxygenerator\10.36.25067.3\build\Microsoft.Dynamics.Commerce.Tools.CoreProxyGenerator.props" Condition="Exists('$(NuGetPackageRoot)microsoft.dynamics.commerce.tools.coreproxygenerator\10.36.25067.3\build\Microsoft.Dynamics.Commerce.Tools.CoreProxyGenerator.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Dynamics_Commerce_Tools_CoreProxyGenerator Condition=" '$(PkgMicrosoft_Dynamics_Commerce_Tools_CoreProxyGenerator)' == '' ">C:\Users\localadmin\.nuget\packages\microsoft.dynamics.commerce.tools.coreproxygenerator\10.36.25067.3</PkgMicrosoft_Dynamics_Commerce_Tools_CoreProxyGenerator>
+    <PkgMicrosoft_Dynamics_Commerce_Tools_ExtensionsProxyGenerator_AspNetCore Condition=" '$(PkgMicrosoft_Dynamics_Commerce_Tools_ExtensionsProxyGenerator_AspNetCore)' == '' ">C:\Users\localadmin\.nuget\packages\microsoft.dynamics.commerce.tools.extensionsproxygenerator.aspnetcore\9.53.25141.5</PkgMicrosoft_Dynamics_Commerce_Tools_ExtensionsProxyGenerator_AspNetCore>
+  </PropertyGroup>
+</Project>

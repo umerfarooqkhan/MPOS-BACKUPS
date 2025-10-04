@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Contoso.Commerce.RetailProxy.Extension
+build_property.ProjectDir = C:\Users\localadmin\Videos\Git_StoreCommerce43\CommerceProxyGenerator\TypeScript\

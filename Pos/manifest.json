@@ -1,0 +1,76 @@
+{
+  "$schema": "./devDependencies/schemas/manifestSchema.json",
+  "name": "CFZ.Sapphire.Commerce",
+  "publisher": "Confiz",
+  "version": "3.0.0.1",
+  "minimumPosVersion": "9.48.0.0",
+  "description": "This is an extension for all customization of SAPPHIRE.",
+  "dependencies": [
+    {
+      "alias": "knockout",
+      "format": "amd",
+      "modulePath": "Libraries/knockout"
+    }
+  ],
+  "components": {
+    "create": {
+      "operations": [
+        {
+          "operationId": "9000",
+          "operationRequestFactoryPath": "Operations/CfzCustomerSearchOperationRequestFactory",
+          "operationRequestHandlerPath": "Operations/CfzCustomerSearchOperationRequestHandler"
+        },
+        {
+          "operationId": "9001",
+          "operationRequestFactoryPath": "Operations/CfzCustomerBalanceOperationRequestFactory",
+          "operationRequestHandlerPath": "Operations/CfzCustomerBalanceOperationRequestHandler"
+        }
+      ],
+      "templatedDialogs": [
+        {
+          "htmlPath": "Dialog/CfzCustomerBalance.html",
+          "modulePath": "Dialog/CfzCustomerBalance"
+        },
+        {
+          "htmlPath": "Dialog/CfzCustomerSearchScan.html",
+          "modulePath": "Dialog/CfzCustomerSearchScan"
+        }
+      ]
+    },
+    "resources": {
+      "supportedUICultures": [ "en-US" ],
+      "fallbackUICulture": "en-US",
+      "culturesDirectoryPath": "Resources",
+      "stringResourcesFileName": "strings.resjson"
+    },
+    "extend": {
+      "triggers": [
+        {
+          "triggerType": "PreEndTransaction",
+          "modulePath": "Extend/CFZTransactionTrigger/PreEndTransactionTrigger"
+        },
+        {
+          "triggerType": "PostEndTransaction",
+          "modulePath": "Extend/CFZTransactionTrigger/PostEndTransactionTrigger"
+        },
+        {
+          "triggerType": "PostOperation",
+          "modulePath": "Extend/CFZTransactionTrigger/PostOperationTrigger"
+        },
+        {
+          "triggerType": "PreOperation",
+          "modulePath": "Extend/CFZTransactionTrigger/PreOperationTrigger"
+        },
+        {
+          "triggerType": "PostCustomerSearch",
+          "modulePath": "Extend/CFZTransactionTrigger/PostCustomerSearchTrigger"
+        }
+      ],
+      "views": {
+        "SearchView": {
+          "productListConfiguration": { "modulePath": "ViewExtensions/ProductSearchListColumn" }
+        }
+      }
+    }
+  }
+}

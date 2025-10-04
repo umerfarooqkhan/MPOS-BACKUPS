@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\CommerceProxyGenerator\\TypeScript\\TypeScriptProxyGenerator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\CommerceProxyGenerator\\TypeScript\\TypeScriptProxyGenerator.csproj": {
+      "version": "9.53.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\CommerceProxyGenerator\\TypeScript\\TypeScriptProxyGenerator.csproj",
+        "projectName": "Contoso.Commerce.RetailProxy.Extension",
+        "projectPath": "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\CommerceProxyGenerator\\TypeScript\\TypeScriptProxyGenerator.csproj",
+        "packagesPath": "C:\\Users\\localadmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\CommerceProxyGenerator\\TypeScript\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\localadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\localadmin\\Desktop\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\CommerceRuntime\\CommerceRuntime.csproj": {
+                "projectPath": "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\CommerceRuntime\\CommerceRuntime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Dynamics.Commerce.Tools.ExtensionsProxyGenerator.AspNetCore": {
+              "target": "Package",
+              "version": "[9.53.25141.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\CommerceRuntime\\CommerceRuntime.csproj": {
+      "version": "9.53.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\CommerceRuntime\\CommerceRuntime.csproj",
+        "projectName": "CommerceRuntime",
+        "projectPath": "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\CommerceRuntime\\CommerceRuntime.csproj",
+        "packagesPath": "C:\\Users\\localadmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\localadmin\\Videos\\Git_StoreCommerce43\\CommerceRuntime\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\localadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\localadmin\\Desktop\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU5100",
+            "NU5128"
+          ],
+          "warnAsError": [
+            "NU1605",
+            "NU1608",
+            "NU1701"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "FreedomPay.StoreCommerce.CommerceRuntime": {
+              "target": "Package",
+              "version": "[1.3.2.4, )"
+            },
+            "Google.Cloud.Translation.V2": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Dynamics.Commerce.PaymentSDK.Portable": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[10.53.25106.3, )"
+            },
+            "Microsoft.Dynamics.Commerce.Runtime.Localization.Services.Messages": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[9.53.25141.5, )"
+            },
+            "Microsoft.Dynamics.Commerce.Runtime.Services.Messages": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[9.53.25141.5, )"
+            },
+            "Microsoft.Dynamics.Commerce.Sdk.Analyzers": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.53.25147.4, )"
+            },
+            "Microsoft.Dynamics.Commerce.Sdk.Runtime": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[9.53.25147.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "ZXing.Net.Bindings.ZKWeb.System.Drawing": {
+              "target": "Package",
+              "version": "[0.16.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\CustomizationPackage.props" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>Confiz.StoreCommerce.Installer</RootNamespace>
+    <AssemblyName>Confiz.StoreCommerce.Installer</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Dynamics.Commerce.Sdk.Installers.StoreCommerce" Version="9.53.25147.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChannelDatabase\ChannelDatabase.csproj" />
+    <ProjectReference Include="..\CommerceRuntime\CommerceRuntime.csproj" />
+    <ProjectReference Include="..\Pos\POS.csproj" />
+    
+  </ItemGroup>
+
+</Project>

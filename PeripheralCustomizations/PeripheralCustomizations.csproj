@@ -1,0 +1,86 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="..\CustomizationPackage.props" />
+
+    <PropertyGroup>
+        <RootNamespace>Confiz.HardwareStation.Peripherals.PeripheralCustomizations</RootNamespace>
+        <TargetFramework>net472</TargetFramework>
+        <AssemblyName>Confiz.PeripheralCustomizations</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="App.config" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="App.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Dynamics.Commerce.Runtime.Entities" Version="9.53.25141.5" />
+        <PackageReference Include="Microsoft.Dynamics.Commerce.Sdk.HardwareAndPeripherals" Version="9.53.25150.4" />
+        <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+        <PackageReference Include="System.Drawing.Common" Version="8.0.1" />
+        <PackageReference Include="UblSharp" Version="1.1.1" />
+        <PackageReference Include="ZXing.Net" Version="0.16.9" />
+		<PackageReference Include="Microsoft.Dynamics.Commerce.Runtime.Hosting.Contracts" Version="10.19.24365.1" />
+		<PackageReference Include="Microsoft.Dynamics.Commerce.Runtime.Framework" Version="10.19.24365.1" />
+		<PackageReference Include="Microsoft.Dynamics.Commerce.HardwareStation.PeripheralRequests" Version="9.53.25133.2" />
+		<PackageReference Include="Microsoft.Dynamics.Commerce.HardwareStation.Peripherals.Contracts" Version="9.53.25133.2" />
+		<PackageReference Include="Microsoft.Dynamics.Commerce.HardwareStation.Peripherals.Entities" Version="9.53.25133.2" />
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="BouncyCastle.Crypto">
+        <HintPath>..\Packages\BouncyCastle.Crypto.dll</HintPath>
+      </Reference>
+      <Reference Include="IKVM.OpenJDK.Charsets">
+        <HintPath>..\Packages\IKVM.OpenJDK.Charsets.dll</HintPath>
+      </Reference>
+      <Reference Include="IKVM.OpenJDK.Core">
+        <HintPath>..\Packages\IKVM.OpenJDK.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="IKVM.OpenJDK.Localedata">
+        <HintPath>..\Packages\IKVM.OpenJDK.Localedata.dll</HintPath>
+      </Reference>
+      <Reference Include="IKVM.OpenJDK.Text">
+        <HintPath>..\Packages\IKVM.OpenJDK.Text.dll</HintPath>
+      </Reference>
+      <Reference Include="IKVM.OpenJDK.Util">
+        <HintPath>..\Packages\IKVM.OpenJDK.Util.dll</HintPath>
+      </Reference>
+      <Reference Include="IKVM.OpenJDK.XML.API">
+        <HintPath>..\Packages\IKVM.OpenJDK.XML.API.dll</HintPath>
+      </Reference>
+      <Reference Include="IKVM.Runtime">
+        <HintPath>..\Packages\IKVM.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Dynamics.Commerce.HardwareStation.Peripherals.Desktop">
+        <HintPath>..\Packages\Microsoft.Dynamics.Commerce.HardwareStation.Peripherals.Desktop.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Dynamics.Commerce.HardwareStation.Peripherals.PrinterLibrary">
+        <HintPath>..\Packages\Microsoft.Dynamics.Commerce.HardwareStation.Peripherals.PrinterLibrary.dll</HintPath>
+      </Reference>
+      <Reference Include="QRCoder">
+        <HintPath>..\Packages\QRCoder.dll</HintPath>
+      </Reference>
+      <Reference Include="saxon-he-10.9">
+        <HintPath>..\Packages\saxon-he-10.9.dll</HintPath>
+      </Reference>
+      <Reference Include="saxon-he-api-10.9">
+        <HintPath>..\Packages\saxon-he-api-10.9.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Windows.Forms">
+        <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll</HintPath>
+      </Reference>
+      <Reference Include="Zatca.EInvoice.SDK">
+        <HintPath>..\Packages\Zatca.EInvoice.SDK.dll</HintPath>
+      </Reference>
+      <Reference Include="Zatca.EInvoice.SDK.Contracts">
+        <HintPath>..\Packages\Zatca.EInvoice.SDK.Contracts.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Update="Microsoft.Dynamics.Commerce.Sdk.Analyzers" Version="9.53.25147.4" />
+    </ItemGroup>
+  
+</Project>

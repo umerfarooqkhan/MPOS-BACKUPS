@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.text.json\6.0.11\buildTransitive\netstandard2.0\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\6.0.11\buildTransitive\netstandard2.0\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.data.sqlclient.sni\5.2.0\buildTransitive\net462\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.data.sqlclient.sni\5.2.0\buildTransitive\net462\Microsoft.Data.SqlClient.SNI.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.dynamics.commerce.sdk.installers.scaleunit\9.53.25147.4\build\Microsoft.Dynamics.Commerce.Sdk.Installers.ScaleUnit.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.dynamics.commerce.sdk.installers.scaleunit\9.53.25147.4\build\Microsoft.Dynamics.Commerce.Sdk.Installers.ScaleUnit.targets')" />
+  </ImportGroup>
+</Project>

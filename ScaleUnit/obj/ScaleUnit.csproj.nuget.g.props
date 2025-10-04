@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\localadmin\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.7.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\localadmin\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.dynamics.commerce.sdk.scaleunit\9.53.25147.4\build\Microsoft.Dynamics.Commerce.Sdk.ScaleUnit.props" Condition="Exists('$(NuGetPackageRoot)microsoft.dynamics.commerce.sdk.scaleunit\9.53.25147.4\build\Microsoft.Dynamics.Commerce.Sdk.ScaleUnit.props')" />
+    <Import Project="$(NuGetPackageRoot)freedompay.scaleunit.packaging\1.3.2.4\build\FreedomPay.ScaleUnit.Packaging.props" Condition="Exists('$(NuGetPackageRoot)freedompay.scaleunit.packaging\1.3.2.4\build\FreedomPay.ScaleUnit.Packaging.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_TypeScript_MSBuild Condition=" '$(PkgMicrosoft_TypeScript_MSBuild)' == '' ">C:\Users\localadmin\.nuget\packages\microsoft.typescript.msbuild\4.7.4</PkgMicrosoft_TypeScript_MSBuild>
+    <PkgMicrosoft_Dynamics_Commerce_Sdk_ScaleUnit Condition=" '$(PkgMicrosoft_Dynamics_Commerce_Sdk_ScaleUnit)' == '' ">C:\Users\localadmin\.nuget\packages\microsoft.dynamics.commerce.sdk.scaleunit\9.53.25147.4</PkgMicrosoft_Dynamics_Commerce_Sdk_ScaleUnit>
+  </PropertyGroup>
+</Project>

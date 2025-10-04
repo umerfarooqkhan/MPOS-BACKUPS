@@ -1,0 +1,32 @@
+{
+  "$schema": "./devDependencies/schemas/manifestSchema.json",
+  "name": "FreedomPay.StoreCommerce.PaymentDevice",
+  "publisher": "FreedomPay Inc.",
+  "version": "1.3.2.4",
+  "minimumPosVersion": "9.45.0.0",
+  "description": "Freedompay Payment Device Connector.",
+  "components": {
+    "extend": {
+      "requestHandlers": [
+        {
+          "name": "GetKeyedInDonationPriceClientRequestHandlerExt",
+          "description": "FreedomPay Implementation of an GetKeyedInPriceClient RequestHandler automates the price entry of donation to be added as line item to the transaction",
+          "modulePath": "Extend/FreedomPay/RequestHandlers/GetKeyedInDonationPriceClientRequestHandlerExt"
+        },
+        {
+          "name": "RefreshCartExt",
+          "description": "FreedomPay Implementation of an PaymentTerminalCapturePayment RequestHandler to refresh cart.",
+          "modulePath": "Extend/FreedomPay/RequestHandlers/RefreshCartExt"
+        }
+      ],
+      "triggers": [
+        {
+          "name": "AddDonationLineItemPostPaymentTriggerExt",
+          "description": "FreedomPay implementation of a PostPayment trigger that initiates adding donation amount as product line item to the cart. ProductId and ProductItemId are fetched from the Payment Connector config file which is saved to authorization",
+          "triggerType": "PostPayment",
+          "modulePath": "Extend/FreedomPay/Triggers/AddDonationLineItemPostPaymentTriggerExt"
+        }
+      ]
+    }
+  }
+}
